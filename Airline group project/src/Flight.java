@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Flights {
+public class Flight {
 	private int flightNumber; 
 	private String tripType;
 	private String source;
@@ -22,7 +22,7 @@ public class Flights {
 	private Map<String, Integer> cancelWaitlistChildren;
 	private Map<String, Integer> cancelWaitlistAdult;
 	
-	public Flights(int flightNumber, String tripType, String source, String destination, Boolean longTrip, ArrayList<String> layovers, int capacityAdults, int capacityChildren, double classOnePrice, double classTwoPrice, double extraLuggagePrice, String date, String time) {
+	public Flight(int flightNumber, String tripType, String source, String destination, Boolean longTrip, ArrayList<String> layovers, int capacityAdults, int capacityChildren, double classOnePrice, double classTwoPrice, double extraLuggagePrice, String date, String time) {
 		this.flightNumber = flightNumber;
 		this.tripType = tripType;
 		this.source = source;
